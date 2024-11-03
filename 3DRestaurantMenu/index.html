@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Concepto de Menú de Restaurante 3D</title>
+        <meta name="description" content="Un menú de restaurante plegado y sensible con algo de 3D" />
+        <meta name="keywords" content="css3, perspectiva, 3d, jquery, transform3d, sensible, plantilla, restaurante, menú, folleto, plegado, volante, concepto" />
+        <meta name="author" content="DevCat" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300,500|Arvo:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+		
+			<!-- Barra superior de Codrops -->
+            <div class="codrops-top">
+                <a href="#">
+                    Desarrollado por DevCat
+                </a>
+                <span class="right">
+                	<a href="http://www.flickr.com/photos/hisgett/369087090/sizes/m/in/photostream/">Imagen del restaurante por ahisgett</a>
+                    
+                </span>
+            </div><!--/ Barra superior de Codrops -->
+			
+			<header>
+			
+				<h1>Concepto de Menú de Restaurante 3D</h1>
+				<h2>
+					Un menú de restaurante plegado y sensible con algo de 3D, con recetas de Michael Natkin de <a href="http://herbivoracious.com/">herbivoracious.com</a>
+					<span class="demo-note">Tu tamaño de viewport actual muestra la versión simplificada</span>
+				</h2>
+				
+				<div class="support-note"><!-- comprobemos el soporte del navegador con modernizr -->
+					<span class="no-cssanimations">Las animaciones CSS no son compatibles en tu navegador</span>
+					<span class="no-csstransforms">Las transformaciones CSS no son compatibles en tu navegador</span>
+					<span class="no-csstransforms3d">Las transformaciones 3D CSS no son compatibles en tu navegador</span>
+					<span class="no-csstransitions">Las transiciones CSS no son compatibles en tu navegador</span>
+					<span class="note-ie">Lo siento, solo navegadores modernos.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+
+				<div id="rm-container" class="rm-container">
+
+					<div class="rm-wrapper">
+
+						<div class="rm-cover">
+
+							<div class="rm-front">
+								<div class="rm-content">
+
+									<div class="rm-logo"></div>
+									<h2>Castillo Gourmet</h2>
+									<h3>Comida Fina y Para Llevar Gourmet</h3>
+
+									<a href="#" class="rm-button-open">Ver el Menú</a>
+									<div class="rm-info">
+										<p>
+										<strong>Restaurante Castillo Gourmet</strong><br>
+										246 Maravillosa Calle Paraíso<br>
+										Pasadena, CA 91101<br>
+										<strong>Teléfono</strong> 626.511.1170<br>
+										<strong>Fax</strong> 626.992.1020</p>
+									</div>
+
+								</div><!-- /rm-content -->
+							</div><!-- /rm-front -->
+
+							<div class="rm-back">
+								<div class="rm-content">
+									<h4>Entradas</h4>
+									<dl>
+										<dt>Alcachofas de Bella</dt>
+										<dd>Alcachofas asadas con aioli de chipotle y queso crema</dd>
+
+										<dt>Bruschetta Delicia Azul</dt>
+										<dd>Bruschetta de queso azul y cítricos</dd>
+
+										<dt>Pomme Dulse</dt>
+										<dd>Papas al horno con dulse crujiente</dd>
+
+										<dt><a href="http://herbivoracious.com/2011/11/crostini-with-young-pecorino-grilled-figs-and-arugula-mint-pesto-recipe.html" class="rm-viewdetails" data-thumb="images/1.jpg">Crostini de Amor Verde</a></dt>
+										<dd>Crostini con pecorino joven, higos a la parrilla y pesto de rúcula y menta</dd>
+										
+										<dt>Focaccia di Carciofi</dt>
+										<dd>Focaccia de alcachofa con tomillo fresco</dd>
+									</dl>
+
+									<h4>Ensaladas y Más</h4>
+									<dl>
+										<dt>Delicia Verde</dt>
+										<dd>Ensalada de berro, frisée y aguacate</dd>
+
+										<dt><a href="http://herbivoracious.com/2010/02/thai-tofu-salad-recipe.html" class="rm-viewdetails" data-thumb="images/13.jpg">Yam Taohu Gourmet</a></dt>
+										<dd>Ensalada tailandesa de tofu yam taohu</dd>
+
+										<dt>Panini Deluxe</dt>
+										<dd>Panini de mozzarella de búfala y albahaca</dd>
+									</dl>
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-cover -->
+
+						<div class="rm-middle">
+							<div class="rm-inner">
+								<div class="rm-content">
+									<h4>Platos Principales</h4>
+									<dl>
+										<dt><a href="http://herbivoracious.com/2009/03/panfried-gnocchi-with-arugula-recipe.html" class="rm-viewdetails" data-thumb="images/11.jpg">Gnocchi Crujiente con Rúcula</a></dt>
+										<dd>Gnocchi de patata salteados con ensalada de rúcula</dd>
+
+										<dt>Curry de Cacahuete Picante de Mar Palm</dt>
+										<dd>Fideos de mar palm tiernos, verduras sazonadas, curry de cacahuete picante y croquetas de tempeh fenel</dd>
+
+										<dt><a href="http://herbivoracious.com/2012/09/caviar-lentil-salad-with-arugula-crispy-shallots-and-roasted-garlic-recipe.html" class="rm-viewdetails" data-thumb="images/8.jpg">Lentejas Caviar &amp; Rúcula</a></dt>
+										<dd>Curry de lentejas negras con ensalada de rúcula, chalotes caramelizados y ajo asado</dd>
+
+										<dt>Tofu Glaseado con Tamari y Arce</dt>
+										<dd>Emulsión de wasabi, semillas de sésamo y cebollinos</dd>
+
+										<dt>Tofu a la Barbacoa de Arce</dt>
+										<dd>Tofu marinado a la parrilla, salsa de barbacoa de arce, ensalada de tahini, verduras de temporada a la parrilla y puré de patatas</dd>
+																													
+										<dt><a href="http://herbivoracious.com/2012/07/king-oyster-mushroom-with-roasted-cherries-and-sage-no-that-isnt-meat-recipe-and-thought-process.html" class="rm-viewdetails" data-thumb="images/4.jpg">Ostra de Lujo</a></dt>
+										<dd>Seta ostra rey con cerezas asadas y salvia</dd>
+										
+										<dt><a href="http://herbivoracious.com/2012/09/rigatoni-with-roasted-cauliflower-and-spicy-tomato-sauce-recipe.html" class="rm-viewdetails" data-thumb="images/3.jpg">Rigatoni di Cavolfiore</a></dt>
+										<dd>Rigatoni con coliflor asada y salsa de tomate picante</dd>
+										
+										<dt><a href="http://herbivoracious.com/2012/06/saffron-chickpea-stew-with-grilled-porcini-mushroom-recipe.html" class="rm-viewdetails" data-thumb="images/14.jpg">Secreto de Chana Azafrán</a></dt>
+										<dd>Estofado de garbanzos con azafrán y setas porcini a la parrilla</dd>
+									</dl>
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+							</div><!-- /rm-inner -->
+						</div><!-- /rm-middle -->
+
+						<div class="rm-right">
+
+							<div class="rm-front">
+								
+							</div>
+
+							<div class="rm-back">
+								<span class="rm-close">Cerrar</span>
+								<div class="rm-content">
+									<h4>Postres</h4>
+									<dl>
+										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="images/5.jpg">Crepes de Ciruela Francesa</a></dt>
+										<dd>Crepes con ciruelas francesas asadas, yogur y miel</dd>
+										
+										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="images/6.jpg">Pudín de Butterscotch</a></dt>
+										<dd>Pudín de butterscotch con ganache semiamargo y crujientes de chocolate blanco caramelizado</dd>
+										
+										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="images/12.jpg">Gâteau de Crêpes de Chocolate</a></dt>
+										<dd>Gâteau de crêpes con crema de chocolate y dulce de leche</dd>
+										
+										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="images/10.jpg">Dutch Baby con Manzanas Salteadas</a></dt>
+										<dd>Pancakes gigantes horneados con manzanas salteadas</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/08/blueberry-napol.html" class="rm-viewdetails" data-thumb="images/7.jpg">Napoleón de Arándanos</a></dt>
+										<dd>Napoleón de arándanos con crème fraîche y polvo de frambuesa</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/09/rings-of-saturn.html" class="rm-viewdetails" data-thumb="images/2.jpg">Anillos de Saturno</a></dt>
+										<dd>Durazno de Saturno en tostada francesa challah</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/04/recipe-atayef.html" class="rm-viewdetails" data-thumb="images/9.jpg">Atayef Clásico</a></dt>
+										<dd>Tortitas de postre sirias rellenas de requesón</dd>
+									</dl>
+									<div class="rm-order">
+										<p><strong>¿Quieres que organicemos tu evento?</strong> Llámanos y te ayudaremos a encontrar un lugar y organizar el evento: <strong>626.511.1170</strong></p>
+									</div>
+								</div><!-- /rm-content -->
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-right -->
+					</div><!-- /rm-wrapper -->
+
+				</div><!-- /rm-container -->
+
+			</section>
+			
+        </div>
+		<!-- jQuery si es necesario -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				Menu.init();
+			
+			});
+		</script>
+    </body>
+</html>
